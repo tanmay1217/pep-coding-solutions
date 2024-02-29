@@ -24,3 +24,21 @@ int main(){
     cout << g1[i] << " "; 
     cout<<endl;
 }
+
+
+***************************************************************************************************************************************************
+
+//just calculate perfect sq.
+#include <iostream>
+#include <cmath>
+#include <vector> 
+using namespace std;
+void fun(int n){
+  for(int i=1;i*i<=n;i++){
+    cout<<i*i<<" ";
+  }
+}
+int main(){
+  fun(20);
+}
+
