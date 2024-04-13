@@ -6,7 +6,7 @@ void givenBase_to_decimal(int n,int base){
   int sum=0;
   while(n){
     int rem = n%10;
-    sum+= rem* pow(8,pow_count);
+    sum+= rem* pow(base,pow_count);
     pow_count++;
     n/=10;
   } 
